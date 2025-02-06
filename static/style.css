@@ -34,7 +34,7 @@
     align-items: center;
 }
 
-.navLink-item {
+.navLink-item{
     cursor: pointer;
     font-size: 20px;
     background-color: hsla(214, 69%, 76%, 0.651);
@@ -46,7 +46,7 @@
 }
 
 .navLink-item:hover {
-    background-color: hsla(214, 69%, 76%, 0.50);
+    background-color: hsla(214, 69%, 76%, 0.30);
     transform: scale(1.15);
 }
 
@@ -59,4 +59,46 @@
 
 .nameBrand:hover {
     transform: scale(1.15);
+}
+
+.sideBar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: linear-gradient(90deg, #1a1a1a 0%, #004466  100%);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(40, 40, 40, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sideBar li {
+    list-style: none;
+    margin: 10px;
+    width: 100%;
+}
+
+.sideBar a{
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+}
+
+.menuIcon {
+    display: none;
+}
+
+@media(max-width: 780px) {
+    .navLinks .navLink-item {
+        display: none;
+    }
+    .menuIcon {
+        display: block;
+    }
 }
