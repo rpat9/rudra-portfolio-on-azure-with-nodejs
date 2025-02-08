@@ -13,6 +13,18 @@ This repository is inspired by [Eric Pouge's Template](https://github.com/EricPo
 ---
 # Getting Started: 
 
-- First I started with the background image for the website. After few minutes I found this amazing website from which I got my picture. Link to the specific picture: <a href= "https://unsplash.com/photos/gray-and-black-laptop-computer-on-surface-Im7lZjxeLhg" target = "_blank"> Unsplash</a>. 
+- First I started with the background image for the website. After few minutes I found this amazing website from which I got my picture. Link to the specific picture: [Unsplash](https://unsplash.com/photos/white-pencil-on-black-platform-tk9RQCq5eQo). 
 
-- Next, I worked on the top bar. The <a href= "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient" target = "_blank"> Gradient Documentation</a> was an awesome resource from MDN that helped me pick the background color. Additional feature that bar has is that it changes based on device. Mobie devices will have a slightly different view than those on a laptop or wider screen. This was done with the implemention of the menu and close buttons found on <a href = "https://fonts.google.com/icons" target = "_blank"> Google Icons</a>.
+- Next, I worked on the top bar. The [Gradient Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) was an awesome resource from MDN that helped me pick the background color. Additional feature that bar has is that it changes based on device. Mobie devices will have a slightly different view than those on a laptop or wider screen. This was done with the implemention of the menu and close buttons found on [Google Icons](https://fonts.google.com/icons).
+
+- After the top bar, I moved on to display the work. This section is going to get updated as time goes on.
+
+---
+
+# Styling:
+
+- The idea behind the buttons comes from [Bro Code](https://www.youtube.com/watch?v=lfmg-EJ8gm4&t=22763s). Although the video is primarily Javascript, you can see the implementation of the buttons around 3:49:00 time mark. 
+
+- The transform (size) effects are used by referencing [Transform Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/transform). 
+
+- The gradient color on the header/nav bar is also referenced from [Gradient Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) mentioned earlier. 
