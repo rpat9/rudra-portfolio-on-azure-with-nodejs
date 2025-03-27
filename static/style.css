@@ -123,7 +123,7 @@ body::before {
 }
 
 .blob {
-    width: 250px;
+    width: 350px;
     height: 250px;
     background: hsla(214, 69%, 76%, 0.651);
     padding: 20px;
